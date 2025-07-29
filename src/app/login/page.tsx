@@ -116,7 +116,7 @@ export default function LoginPage() {
           }}
         >
           <Image
-            src="/logo.png"
+            src="/favicon.ico.png"
             alt="Apross"
             width={90}
             height={90}
