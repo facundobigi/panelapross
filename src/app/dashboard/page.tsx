@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
+import Head from 'next/head';
+
 
 import {
   collection,
@@ -302,7 +304,15 @@ if (usuario === null) {
 }
 
   return (
+  <>
+    <Head>
+      <title>APROSS ID</title>
+      <meta name="description" content="Panel de auditoría de visitas APROSS" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+
     <Box sx={{ display: 'flex', bgcolor: '#f9f9f9', minHeight: '100vh' }}>
+
       <AppBar position="fixed" color="inherit" elevation={0} sx={{ bgcolor: '#fff', borderBottom: '1px solid #e0e0e0', zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar sx={{ justifyContent: 'space-between' }}>
           <Box />
@@ -481,5 +491,6 @@ if (usuario === null) {
         />
       </Box>
     </Box>
+  </>
   );
 }
