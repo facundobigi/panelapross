@@ -304,12 +304,8 @@ if (usuario === null) {
 }
 
   return (
-  <>
-    <Head>
-      <title>APROSS ID</title>
-      <meta name="description" content="Panel de auditoría de visitas APROSS" />
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+
+    
 
     <Box sx={{ display: 'flex', bgcolor: '#f9f9f9', minHeight: '100vh' }}>
 
@@ -491,6 +487,5 @@ if (usuario === null) {
         />
       </Box>
     </Box>
-  </>
   );
 }
