@@ -335,7 +335,7 @@ if (usuario === null) {
           }
         }}>
         <Box sx={{ justifyContent: 'center', py: 2, display: 'flex' }}>
-          <Image src="/logo.png" alt="Apross" width={160} height={80} />
+          <Image src="/favicon.ico.png" alt="Apross" width={160} height={80} />
         </Box>
       </Drawer>
 
